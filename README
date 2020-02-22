@@ -1,0 +1,17 @@
+This project will follow our Capstone journey from start to finish
+Our capstone idea is to create a system that takes in audio input from different languages and attempts to classify the language of the audio
+
+19FEB2020:
+Created initialExploration.py and began to play around with uploading data sources from our reference doc:
+    https://docs.google.com/document/d/1PheDDnWwijPsttkiE4ehyctNL37lzTSlXiaQ2eTqXKM/edit#heading=h.eowwx4id8rqb
+Beginning by using LibROSA package, which is a python package for music and audio analysis:
+    http://librosa.github.io/librosa/
+I feel this might not be the best option as documentation states it helps create "music information retrieval system" but we will change if needed
+
+22FEB2020:
+Installing the Speech Recognizer package to convert speech to text:
+    https://realpython.com/python-speech-recognition/
+Converting the mp3 files to .wav files with ffmpeg package
+First step is to convert all .mp3 files to .wav so we can work with the SpeechRecognizer package
+Did this using a function with the AudioConvertor package
+Next will actually start converting the speech to text
