@@ -15,3 +15,6 @@ Converting the mp3 files to .wav files with ffmpeg package
 First step is to convert all .mp3 files to .wav so we can work with the SpeechRecognizer package
 Did this using a function with the AudioConvertor package
 Next will actually start converting the speech to text
+
+11MAR2020:
+Got SpeechRecognizer package working, it works well with english speech, trying it out on a few other languages
